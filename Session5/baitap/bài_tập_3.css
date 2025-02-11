@@ -1,0 +1,32 @@
+.backgruop {
+    background-color: rgb(207, 201, 201);
+}
+
+.table {
+    width: 100%;
+}
+
+.admin {
+    text-align: center;
+}
+
+.list {
+    background-color: rgb(0, 60, 255);
+    color: white;
+    height: 40px;
+}
+
+.list2 {
+    height: 40px;
+    background-color: white;
+}
+
+.list1 {
+    height: 40px;
+    background-color: rgb(187, 179, 179);
+}
+
+.list3 {
+    height: 40px;
+    background-color: rgb(189, 183, 183);
+}
