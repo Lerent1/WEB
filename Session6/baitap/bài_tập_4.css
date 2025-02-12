@@ -1,0 +1,44 @@
+.backgruop {
+    background-color: lightgreen;
+    text-align: center;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.HAC {
+    word-spacing: 20px;
+}
+
+.CJH {
+    width: 20%;
+    vertical-align: top;
+    background-color: lightgrey;
+}
+
+.picture {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+.email {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 99%;
+    padding: 10px;
+}

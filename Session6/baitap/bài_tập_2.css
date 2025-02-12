@@ -1,0 +1,33 @@
+div {
+    text-align: center;
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.backgruop {
+    border: 10px solid lightgray;
+    border-radius: 20px 20px 20px 20px;
+    width: 200px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.name {
+    padding-right: 140px;
+}
+
+.email {
+    padding-right: 120px;
+}
+
+.password {
+    padding-right: 95px;
+}

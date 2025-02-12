@@ -1,0 +1,58 @@
+.backgruop {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+.HAC a {
+    color: white;
+    padding-block: 10px;
+    text-decoration: none;
+}
+
+.copy {
+    background-color: lightgrey;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+.text {
+    background-color: lightgray;
+    padding-right: 58%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.HAC {
+    word-spacing: 40px;
+    display: inline-block;
+    padding-left: 50%;
+}
+
+.project {
+    background-color: grey;
+    color: grey;
+    width: 100px;
+}
+
+button {
+    width: 355px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+th {
+    padding-right: 270px;
+}
