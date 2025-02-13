@@ -1,0 +1,41 @@
+.backgruod {
+    background-color: white;
+    width: 362px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.naninani {
+    width: 100%;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+.nani {
+    width: 24%;
+    padding: 11px;
+    background-color: lightgray;
+    position: relative;
+    left: 2px;
+}
+
+.backgruop {
+    background-color: white;
+    width: 360px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
