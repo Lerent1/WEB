@@ -51,6 +51,6 @@ button {
     position: relative;
     bottom: 285px;
     left: 135px;
-    background-color: gray;
+    background-color: transparent;
     border: 1px solid white;
 }
