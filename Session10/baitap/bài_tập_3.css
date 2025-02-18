@@ -1,0 +1,56 @@
+.image {
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.backgruod {
+    background-color: lightgray;
+    width: 380px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    bottom: 32px;
+}
+
+h4 {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+p {
+    opacity: 0.5;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    opacity: 0.8;
+}
+
+.flex {
+    position: relative;
+    bottom: 20px;
+}
+
+button {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    position: relative;
+    bottom: 285px;
+    left: 135px;
+    background-color: gray;
+    border: 1px solid white;
+}

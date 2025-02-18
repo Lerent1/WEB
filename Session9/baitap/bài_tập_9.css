@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: relative;
+    bottom: 170px;
+    left: 45px;
+    color: white;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 60px;
+}
+
+.pictext {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 95px;
+}
+
+img {
+    margin-left: 20px;
+}
+
+.Sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    width: 390px;
+    height: 210px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 45px;
+    top: 10px;
+    color: red;
+}
+
+p {
+    color: white;
+}
