@@ -1,0 +1,119 @@
+.blue1 {
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.haicolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.color1 {
+    background-color: tomato;
+    width: 50%;
+    height: 200px;
+}
+
+.color2 {
+    background-color: orange;
+    width: 50%;
+    height: 200px;
+}
+
+.blue2 {
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.bacolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sea {
+    background-color: lightblue;
+    width: 33%;
+    height: 200px;
+}
+
+.pink {
+    background-color: pink;
+    width: 33%;
+    height: 200px;
+}
+
+.org {
+    background-color: orange;
+    width: 33%;
+    height: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .backgruod {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .color1 {
+        height: 120px;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .color2 {
+        height: 120px;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .haicolor {
+        height: 60px;
+        gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 190px;
+    }
+
+    .org {
+        height: 120px;
+        width: 100%;
+    }
+
+    .pink {
+        height: 120px;
+        width: 100%;
+    }
+
+    .sea {
+        height: 120px;
+        width: 100%;
+    }
+
+    .bacolor {
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .blue1 {
+        height: 60px;
+        margin-bottom: 5px;
+    }
+
+    .blue2 {
+        height: 60px;
+        margin-bottom: 5px;
+    }
+}

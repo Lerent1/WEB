@@ -1,0 +1,199 @@
+.tab {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+}
+
+p {
+    color: white;
+    position: relative;
+    right: 150px;
+    bottom: 8px;
+}
+
+.violet {
+    background-color: violet;
+    width: 96%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.violet1 {
+    background-color: violet;
+    width: 23%;
+    height: 110px;
+    margin-right: 20px;
+}
+
+.violet2 {
+    background-color: violet;
+    width: 23%;
+    height: 110px;
+    margin-right: 20px;
+}
+
+.violet3 {
+    background-color: violet;
+    width: 23%;
+    height: 110px;
+    margin-right: 20px;
+}
+
+.violet4 {
+    background-color: violet;
+    width: 23%;
+    height: 110px;
+}
+
+.forviolet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.color1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiviolet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink1 {
+    background-color: lightpink;
+    width: 47.5%;
+    height: 170px;
+    margin-right: 20px;
+}
+
+.pink2 {
+    background-color: lightpink;
+    width: 47.5%;
+    height: 170px;
+}
+
+.pink {
+    background-color: pink;
+    width: 96%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.color2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .forviolet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .violet1 {
+        width: 47%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .violet2 {
+        width: 47%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .violet3 {
+        width: 47.5%;
+        margin-right: 10px;
+    }
+
+    .violet4 {
+        width: 47.5%;
+    }
+
+    .violet {
+        margin-bottom: 10px;
+    }
+
+    .pink1 {
+        width: 96%;
+        margin-bottom: 10px;
+    }
+
+    .hiviolet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .pink2 {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .forviolet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .violet1 {
+        width: 97%;
+        margin-bottom: 10px;
+    }
+
+    .violet2 {
+        width: 96%;
+        margin-bottom: 10px;
+    }
+
+    .violet3 {
+        width: 96%;
+        margin-bottom: 10px;
+    }
+
+    .violet4 {
+        width: 96%;
+    }
+
+    .violet {
+        margin-bottom: 10px;
+    }
+
+    .pink1 {
+        width: 96%;
+        margin-bottom: 10px;
+    }
+
+    .hiviolet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .pink2 {
+        width: 96%;
+    }
+}
