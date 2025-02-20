@@ -1,0 +1,11 @@
+h3 {
+    text-align: center;
+}
+
+td {
+    border-right: 1px solid gray;
+}
+
+th {
+    border-right: 1px solid gray;
+}
