@@ -1,0 +1,401 @@
+body {
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    width: 1440px;
+    height: 111px;
+    background-color: #FEF0E3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab h3 {
+    font-size: 24px;
+    position: relative;
+    left: 100px;
+}
+
+.project {
+    position: relative;
+    right: 100px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.project button {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 180px;
+    height: 43px;
+    border: none;
+    border-radius: 32px;
+}
+
+.picture {
+    background-color: #F9DBC1;
+    width: 1440px;
+    height: 913px;
+    margin-bottom: 6px;
+}
+
+.picture h1 {
+    display: inline-block;
+}
+
+.picture span {
+    display: inline-block;
+    font-size: 24px;
+    color: #323232;
+}
+
+.text h1 {
+    font-size: 64px;
+    color: #1E2130;
+}
+
+.picture img {
+    width: 718px;
+    height: 911px;
+}
+
+.text p {
+    font-size: 24px;
+    color: #323232;
+    position: relative;
+    bottom: 50px;
+}
+
+.text {
+    width: 720px;
+    position: relative;
+    left: 40px;
+}
+
+.text button {
+    background-color: #AC82FC;
+    color: #000000;
+    width: 222px;
+    height: 50px;
+    border-radius: 32px;
+    border: 1px 1px 3px 1px solid #000000;
+    position: relative;
+    bottom: 80px;
+}
+
+.text table {
+    position: relative;
+    bottom: 80px;
+}
+
+.portfoilo {
+    background-color: #C6C2CD;
+    width: 1440px;
+    height: 1350px;
+    position: relative;
+    bottom: 6px;
+}
+
+.ui_ux {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 29px;
+    width: 640px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ui_ux img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border-width: 1px;
+    position: relative;
+    top: 12px;
+}
+
+.ui_ux span {
+    color: #565656;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    right: 3px;
+}
+
+.ui_ux h3 {
+    color: #000000;
+    font-size: 24px;
+    position: relative;
+    right: 190px;
+}
+
+.recent_work {
+    text-align: center;
+}
+
+.recent_work span {
+    color: #36009D;
+    font-size: 24px;
+    position: relative;
+    top: 42px;
+}
+
+.recent_work h1 {
+    color: #1E2130;
+    font-size: 48px;
+}
+
+.designing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.graphic {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 29px;
+    width: 640px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.graphic img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border-width: 1px;
+    position: relative;
+    top: 12px;
+}
+
+.graphic span {
+    color: #565656;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    right: 3px;
+}
+
+.graphic h3 {
+    color: #000000;
+    font-size: 24px;
+    position: relative;
+    right: 170px;
+}
+
+.app {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 29px;
+    width: 640px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border-width: 1px;
+    position: relative;
+    top: 12px;
+}
+
+.app span {
+    color: #565656;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    right: 3px;
+}
+
+.app h3 {
+    color: #000000;
+    font-size: 24px;
+    position: relative;
+    right: 210px;
+}
+
+.medical {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 29px;
+    width: 640px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.medical img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border-width: 1px;
+    position: relative;
+    top: 12px;
+}
+
+.medical span {
+    color: #565656;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    right: 3px;
+}
+
+.medical h3 {
+    color: #000000;
+    font-size: 24px;
+    position: relative;
+    right: 187px;
+}
+
+.information {
+    background-color: #FFD7D4;
+    width: 1440px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 48px;
+    color: #1E2130;
+}
+
+.about span {
+    color: #565656;
+    position: relative;
+    bottom: 30px;
+}
+
+.email {
+    width: 364px;
+    height: 127px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.content span {
+    color: #565656;
+}
+
+.content h3 {
+    color: #1E2130;
+}
+
+.email img {
+    border: 1px solid #000000;
+    background-color: #AC82FC;
+    width: 91px;
+    height: 79px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+    top: 22px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+
+.call {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
+
+.call span {
+    color: #565656;
+}
+
+.call h3 {
+    color: #1E2130;
+}
+
+.phone {
+    width: 364px;
+    height: 127px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone img {
+    border: 1px solid #000000;
+    background-color: #AC82FC;
+    width: 91px;
+    height: 79px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+    top: 22px;
+    right: 20px;
+}
+
+.end {
+    background-color: #000000;
+    width: 1440px;
+    height: 71px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+}
+
+.picture table {
+    border-top: 2px solid #000000;
+}
+
+.picture img {
+    border-left: 2px solid #000000;
+}
