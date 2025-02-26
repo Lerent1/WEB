@@ -1,0 +1,286 @@
+body {
+    font-family: "Heebo", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    width: 100%;
+}
+
+.click {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.tab {
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.tools {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.information h1 {
+    font-size: 44px;
+    color: #21243D;
+}
+
+.information span {
+    font-size: 16px;
+    color: #21243D;
+}
+
+button {
+    background-color: #FF6464;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    width: 208px;
+    height: 47px;
+    font-size: 20px;
+}
+
+.screen img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    top: 210px;
+    left: 760px;
+    box-shadow: 5px 5px 10px 10px #EDF7FA;
+}
+
+.backgruod {
+    background-color: #EDF7FA;
+    width: 100%;
+    height: 396px;
+    margin-top: 50px;
+}
+
+.opening {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 20px;
+}
+
+.opening a {
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+.recent_post {
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.mess {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text {
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 418px;
+    color: #21243D;
+}
+
+.text h3 {
+    font-size: 26px;
+}
+
+.text span {
+    font-size: 18px;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.picture {
+    width: 77%;
+    padding: 20px;
+    margin-left: 170px;
+}
+
+.picture p {
+    padding-left: 18px;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.picture1 {
+    display: flex;
+    padding: 15px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.picture1 img {
+    width: 246px;
+    height: 180px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.textbox h1 {
+    font-size: 30px;
+    color: #21243D;
+}
+
+.textbox span {
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.textbox a {
+    background: #142850;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 18px;
+    width: 62px;
+    height: 25px;
+    text-decoration: none;
+}
+
+.textbox p {
+    font-size: 16px;
+    color: #21243D;
+}
+
+.contact {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 80px;
+    height: 182px;
+}
+
+.contact i {
+    font-size: 30px;
+    margin: 20px;
+    color: #21243D;
+}
+
+.contact p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #21243D;
+}
+
+@media screen and (max-width: 768px) {
+    .click {
+        justify-content: center;
+    }
+
+    .tab {
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .information {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .information img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .information h1 {
+        font-size: 32px;
+    }
+
+    .information span {
+        font-size: 14px;
+    }
+
+    button {
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .backgruod {
+        padding: 20px;
+        height: auto;
+    }
+
+    .mess {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .picture {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .picture1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .picture1 img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .textbox h1 {
+        font-size: 24px;
+    }
+
+    .textbox span {
+        font-size: 16px;
+    }
+
+    .textbox a {
+        font-size: 14px;
+    }
+
+    .contact {
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact i {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+}
