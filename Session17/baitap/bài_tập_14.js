@@ -1,0 +1,10 @@
+let r = +prompt("Hãy nhập bán kính");
+let h = +prompt("Hãy nhập chiều cao");
+let surArea = 2 * 3.14 * r * h;
+let total = surArea * 2 * 3.14 * r * r;
+let volume = 3.14 * r * h * r;
+let peri = 2 * 3.14 * r;
+document.write("<p>Diện tích xung quanh là ", surArea);
+document.write("<p>Diện tích toàn phần là ", total);
+document.write("<p>Thể tích hình trụ là ", volume);
+document.write("<p>Chu vi đáy là ", peri);
