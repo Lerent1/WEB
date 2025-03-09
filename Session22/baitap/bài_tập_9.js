@@ -1,5 +1,5 @@
 let number = [];
-let arr = [4, 5, 4, 6, 1, 9, 6, 4, 4, 3];
+let arr = [4, 5, 4, 7, 6, 1, 9, 6, 4, 4, 3];
 for (let i = 0; i < arr.length; i++) {
     if (!number.includes(arr[i])) {
         number.push(arr[i]);
