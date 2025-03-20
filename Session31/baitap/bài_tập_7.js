@@ -7,10 +7,31 @@ let todoList = [
     { id: 6, task: 'Organize office', completed: false }
 ];
 
-const listContainer = document.getElementById("myUL");
-const inputField = document.getElementById("myInput");
-const addButton = document.querySelector(".addBtn");
+function rejods() {
+    let score = "";
+    for (let i = 0; i < todoList.length; i++) {
+        score +=
+            `
+        <li>${todoList[i].task} <button>Sửa</button><button onclick = "deletee(id)">Xóa</button></li><br>
+        `
+    }
+    document.getElementsByClassName("jobs")[0].innerHTML = score;
+    console.log(score);
+}
+rejods();
 
-function renderList() {
+function addjobs() {
+    let add = document.getElementById("addjob").value;
+    console.log("name", add);
 
+    todoList.push(add);
+    document.getElementById("addjob").value = "";
+    rejods();
+}
+
+function deletee(id) {
+    console.log("Xóa");
+    let index = todoList.findIndex((item) => item.id == id);
+    todoList.splice(index, 1);
+    rejods();
 }
