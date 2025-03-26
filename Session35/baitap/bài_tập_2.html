@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .list {
+            margin-top: 20px;
+        }
+
+        .bookmark {
+            display: flex;
+            justify-content: space-between;
+            background: violet;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        .bookmark a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .size {
+            width: 200px;
+        }
+
+        button {
+            width: 80px;
+            height: 30px;
+        }
+
+        input {
+            width: 250px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bookmark Manager</h1>
+        <label for="">Website Name</label><br>
+        <input type="text" id="webName" placeholder="Website Name"><br><br>
+        <label for="">Website Name</label><br>
+        <input type="text" id="webURL" placeholder="Website URL"><br><br>
+        <button class="size" onclick="add()">Save</button>
+        <div class="list" id="list"></div>
+    </div>
+
+    <script src="./bài_tập_2.js"></script>
+</body>
+
+</html>
