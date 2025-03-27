@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            width: 80px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: aqua;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .violet {
+            background-color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <h2>Chọn màu nền bạn yêu thích</h2>
+        <button onclick="chageColor('red')" class="red">Đỏ</button>
+        <button onclick="chageColor('blue')" class="blue">Xanh</button>
+        <button onclick="chageColor('yellow')" class="yellow">Vàng</button>
+        <button onclick="chageColor('violet')" class="violet">Tím</button>
+    </div>
+
+    <script src="./bài_tập_3.js"></script>
+</body>
+
+</html>
