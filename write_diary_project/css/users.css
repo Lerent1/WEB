@@ -1,0 +1,221 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    gap: 30px;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 180px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.than {
+    margin: 0;
+    padding: 20px;
+    background: #FAFAFB;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    background: #D7EDFF;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    color: #0E73F6;
+    font-size: 14px;
+}
+
+.sidebar i {
+    color: #F45A07;
+}
+
+.container {
+    width: 1100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.team {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team h3 {
+    color: #101828;
+}
+
+.team .user {
+    border: none;
+    width: 300px;
+    height: 66.21px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.team .work {
+    color: #6941C6;
+    border-radius: 16px;
+    width: 70px;
+    border: none;
+    background-color: #F9F5FF;
+}
+
+.team i {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+input {
+    width: 600px;
+    height: 66.21px;
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.lengthv {
+    width: 390px;
+}
+
+.small {
+    width: 100px;
+}
+
+.medium {
+    width: 200px;
+}
+
+.inforUser {
+    display: flex;
+    align-items: center;
+}
+
+.inforUser img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status {
+    font-weight: bold;
+    color: green;
+}
+
+.actions button {
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.block {
+    background: #F9F5FF;
+    color: #6941C6;
+    border-radius: 15.68px;
+}
+
+.unblock {
+    background: #EFF8FF;
+    color: #175CD3;
+    border-radius: 15.68px;
+}
+
+.actions button:hover {
+    opacity: 0.8;
+}
+
+.poiter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poiter img {
+    cursor: pointer;
+}
+
+.poiter button {
+    border: none;
+    color: #667085;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.poiter td {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0E73F6;
+}

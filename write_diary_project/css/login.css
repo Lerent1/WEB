@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    width: 500px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.background {
+    text-align: left;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.social button {
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    position: relative;
+    top: 5px;
+}
+
+.link {
+    background: #0D6EFD;
+}
+
+.or {
+    margin: 15px 0;
+    color: #212529;
+}
+
+input {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.click {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    background: #0D6EFD;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    position: relative;
+    left: 50px;
+    color: #FFFFFF;
+}
+
+.web a {
+    color: white;
+    margin: 10px;
+    position: relative;
+    right: 50px;
+    top: 18px;
+}
+
+.betwen {
+    display: flex;
+}
+
+.betwen h2 {
+    margin-right: 20px;
+}
+
+a {
+    color: #DC3545;
+}
+
+p {
+    color: #212529;
+}

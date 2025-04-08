@@ -1,0 +1,182 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    gap: 30px;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 180px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.than {
+    margin: 0;
+    padding: 20px;
+    background: #FAFAFB;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    background: #D7EDFF;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    color: #0E73F6;
+    font-size: 14px;
+}
+
+.sidebar i {
+    color: #F45A07;
+}
+
+.container {
+    width: 1100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.team {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.team i {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+input {
+    width: 600px;
+    height: 66.21px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #0E73F6;
+}
+
+.background {
+    width: 95%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.background h3 {
+    text-align: center;
+}
+
+.background table {
+    background-color: #FFFFFF;
+    width: 100%;
+    border: none;
+}
+
+.background .content {
+    width: 250px;
+}
+
+.nextPage button {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 111px;
+    height: 35px;
+    margin: 20px;
+}
+
+.status {
+    width: 84px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+.deletee {
+    background-color: #EF4444;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    width: 50px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #065F46;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    width: 50px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.mood {
+    color: #6941C6;
+    border-radius: 16px;
+    width: 105px;
+    border: none;
+    background-color: #F9F5FF;
+}
+
+.user {
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    left: 50px;
+    border: none;
+    width: 300px;
+    height: 66.21px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

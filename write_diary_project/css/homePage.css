@@ -1,0 +1,252 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 700px;
+    border: 1px solid #DDE2E4;
+    border-radius: 5px;
+}
+
+i {
+    position: relative;
+    right: 120px;
+    cursor: pointer;
+    color: #B0BABF;
+}
+
+.up {
+    border: 1px solid #DDE2E4;
+    border-radius: 6px;
+    gap: 10px;
+    width: 88px;
+    height: 40px;
+    color: #252C32;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.in {
+    border: 1px solid #DDE2E4;
+    border-radius: 6px;
+    gap: 10px;
+    width: 77px;
+    height: 40px;
+    color: #252C32;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sign {
+    gap: 10px;
+    position: relative;
+    right: 50px;
+}
+
+.text {
+    display: flex;
+}
+
+span {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text div {
+    margin-left: 20px;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent h2 {
+    margin-left: 120px;
+}
+
+.space p {
+    color: #6941C6;
+}
+
+.space .work {
+    color: #026AA2;
+    border-radius: 16px;
+    width: 125px;
+    border: none;
+    background-color: #F0F9FF;
+}
+
+.space .personal {
+    color: #027A48;
+    border-radius: 16px;
+    width: 138px;
+    border: none;
+    background-color: #ECFDF3;
+}
+
+.space .daily {
+    color: #6941C6;
+    border-radius: 16px;
+    width: 105px;
+    border: none;
+    background-color: #F9F5FF;
+}
+
+.space .feel {
+    color: #6941C6;
+    border-radius: 16px;
+    width: 150px;
+    border: none;
+    background-color: #F9F5FF;
+}
+
+.space button {
+    border: none;
+    color: #667085;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.space .right {
+    display: flex;
+    justify-content: right;
+}
+
+.space .right button {
+    position: relative;
+    top: 0.8px;
+}
+
+.space .poiter img {
+    cursor: pointer;
+}
+
+.head {
+    color: #F80101;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 40px;
+}
+
+.head a {
+    text-decoration: none;
+    color: #F80101;
+}
+
+.posts ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.posts ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.posts ul li a {
+    color: #101828;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.space td {
+    position: relative;
+}
+
+.space .image {
+    position: absolute;
+    left: 365px;
+    top: 310px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid #E4E4E7;
+}
+
+.footer {
+    flex: 1;
+}
+
+.brand h2 {
+    padding-right: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 100px;
+    color: #18181B;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #52525B;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #18181B;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.icon i {
+    margin: 10px;
+    text-decoration: none;
+    color: #18181B;
+}
+
+.about {
+    margin-right: 150px;
+}

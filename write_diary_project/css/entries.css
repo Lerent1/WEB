@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    gap: 30px;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 180px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.than {
+    margin: 0;
+    padding: 20px;
+    background: #FAFAFB;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    background: #D7EDFF;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    color: #0E73F6;
+    font-size: 14px;
+}
+
+.sidebar i {
+    color: #F45A07;
+}
+
+.container {
+    width: 1100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.team {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.team i {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+input {
+    width: 600px;
+    height: 66.21px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #0E73F6;
+}
+
+.background {
+    width: 900px;
+    height: 600px;
+}
+
+.background h3 {
+    text-align: center;
+}
+
+.background input {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 37px;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+.background button {
+    background-color: #28A745;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.background table {
+    background-color: #DDDDDD;
+    width: 100%;
+    border: none;
+}
+
+.poiter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poiter img {
+    cursor: pointer;
+}
+
+.poiter button {
+    border: none;
+    color: #667085;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.poiter td {
+    border: none;
+}
+
+.list button {
+    width: 100px;
+    height: 30px;
+}

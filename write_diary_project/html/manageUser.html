@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/users.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+        </div>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-regular fa-bell"></i>
+        <div class="profile">
+            <img src="https://i.pinimg.com/736x/8f/1c/a2/8f1ca2029e2efceebd22fa05cca423d7.jpg" alt="">
+        </div>
+    </div>
+    <div class="than">
+        <div class="sidebar">
+            <button><i class="fa-solid fa-people-roof"></i> Manage Users</button>
+            <button><a href="../html/manageEntries.html"><i class="fa-solid fa-book"></i> &nbsp; Manage
+                    Entries</a></button>
+            <button><a href="../html/manageArticle.html"><i class="fa-solid fa-book-open"></i>&nbsp; Manage
+                    Article</a></button>
+            <button><a href="../html/login.html"><i class="fa-solid fa-right-from-bracket"></i>&nbsp; Log
+                    out</a></button>
+        </div>
+        <div class="container">
+            <div class="team">
+                <div class="user">
+                    <h3>Team Members</h3>
+                    <p class="work">&nbsp;100 users</p>
+                </div>
+                <input type="text" placeholder="&nbsp; Search user"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="lengthv">Name</th>
+                        <th class="small">Status <img src="../assets/images/arrow-down.png" alt=""></th>
+                        <th class="medium">Email address</th>
+                        <th>active</th>
+                        <th>sort by name</th>
+                        <th><img src="../assets/images/chevrons-down.png" alt=""> <img
+                                src="../assets/images/chevrons-up.png" alt=""></th>
+                    </tr>
+                </thead><br><br>
+                <tbody id="information">
+                    <!-- <tr>
+                        <td class="inforUser">
+                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fL3UAsO5SsfMok92QMZ4NJM~zvxXqkxmybpNwXyjfRCgkEQDLRwi3Ne2GtN5OLmJCliRpg2zpxo7gz1BBmTlMWdrxL2FmwyzKjN-ubT4YVeHRmqLg4rfUUdwmAUqAyyX9Nqt6o1LX6qLolyWWjtmVd8GL9-unx8y4YxIp9qZHqaNQcCfzUOTNg-5eXRQfaLhskEa3bBXNJAlkCzAbzbUas1e79bik5DkK1fJe7l3BQY-k2QSwJ~xWeIzdovPEKdsYiMdl4BNCOs-lywv9tyhEgGOoCX8Tu7r9HXu4cOP6a-stKacS-m5KneA5~s-X1n4F3gAAf6IZF-sxBJfM5oD-w__"
+                                alt="">
+                            <div>
+                                <p>Olivia Rhye</p>
+                                <span>@olivia</span>
+                            </div>
+                        </td>
+                        <td>hoạt động</td>
+                        <td>olivia@example.com</td>
+                        <td class="actions">
+                            <button class="block">Block</button>
+                        </td>
+                        <td class="actions">
+                            <button class="unblock">Unblock</button>
+                        </td>
+                        <td></td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <table>
+                <tr class="poiter">
+                    <td><img src="../assets/images/arrow-left.png" alt=""><button>Previous</button></td>
+                    <td></td>
+                    <td class="right"><button>Next</button><img src="../assets/images/arrow-right.png" alt=""></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../js/users.js"></script>
+</body>
+
+</html>

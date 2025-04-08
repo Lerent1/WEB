@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <img src="https://s3-alpha-sig.figma.com/img/a6f1/4c1f/a6846f29f11dc2e85f40b29fbcc92d57?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jb24lYquZEjRmiR-3EzAVHFriJKG~6dQnmdJMTtKWTIY6wHxhm-ymYUhprYdndP2D68JiOoaAcBurGY33ePy5lpF1HQf8zRulSG7XQLiqu7SuIxwhQxC5DYkQfwvfC0xKOHF6y~tpbS6EOah7ZMOn8Mu2IzrkmJsEvAll03GJor~y1SYn14gKAv-dPkkeo5ecJdzNCR67SE2FjKhduFFfYiDlg9KL4f2a0F-v7xckPhh3gi4Ci6iOrFNLbrf0SpHfPddouYghLdnp6lI~3BQrZ8EUmsmDUdTysc3m9K4GsCvUSmiBTIHF8bgnsMl6794lDzuDH9BlOE3K-6mKXjlYw__"
+                alt="">
+            <div class="background">
+                <div class="betwen">
+                    <h2>Sign in with</h2>
+                    <div class="social">
+                        <button class="link"><i class="fab fa-facebook-f"></i></button>
+                        <button class="link"><i class="fab fa-twitter"></i></button>
+                        <button class="link"><i class="fab fa-linkedin-in"></i></button>
+                    </div>
+                </div>
+                <p class="or">Or</p><br>
+                <form>
+                    <input type="email" id="email" placeholder="Enter a valid email address"><br>
+                    <label for="email">Email address</label><br><br>
+                    <input type="password" id="password" placeholder="Enter password"><br>
+                    <label for="password">Password</label><br><br><br>
+                    <button onclick="login()" type="button" class="click">Login</button>
+                </form>
+                <p class="text">Don't have an account? <a href="../html/register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2025. All rights reserved.</p>
+        <div class="web">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
