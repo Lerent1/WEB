@@ -10,7 +10,7 @@ function login() {
     if (login) {
         alert("Đăng nhập thành công");
         localStorage.setItem("Đăng nhập", JSON.stringify(login));
-        window.location.href = "../html/header.html";
+        window.location.href = "../html/manageUser.html";
     } else {
         alert("Email hoặc mật khẩu không chính xác");
     }

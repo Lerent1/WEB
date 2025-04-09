@@ -1,15 +1,19 @@
 let entries = JSON.parse(localStorage.getItem("entries")) || [
     {
         id: 1,
-        name: "Nhật ký học tập"
+        name: "Daily Journal"
     },
     {
         id: 2,
-        name: "Nhật ký mục tiêu và kế hoạch"
+        name: "Work & Career"
     },
     {
         id: 3,
-        name: "Nhật ký trải nghiệm"
+        name: "Personal Thoughts"
+    },
+    {
+        id: 4,
+        name: "Emotions & Feelings"
     }
 ]
 localStorage.setItem("entries", JSON.stringify(entries));

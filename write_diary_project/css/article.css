@@ -129,6 +129,8 @@ a {
     width: 111px;
     height: 35px;
     margin: 20px;
+    cursor: pointer;
+    color: #344054;
 }
 
 .status {

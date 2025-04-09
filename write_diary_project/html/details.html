@@ -11,20 +11,14 @@
 <body>
     <div class="container">
         <a href="../html/homePage.html"><img src="../assets/images/Back.png" alt=""></a><br><br>
-        <div class="post">
-            <div class="user">
-                <img src="https://s3-alpha-sig.figma.com/img/75f9/b5ef/d4087b783ef5dd1b9660a167fb11daff?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=oTEVqdsdjLhOyFn7clZABQTlkoVLnnM~D~lU0O-fKx9cYaBhn4CKcBml18D~Um5r~GCXq75S~jhFDBQyQSksktfpKYkuFKAyUO3oflRDYYBOn2Ib6CBynMreRPTxdopT5llqTBT3yk-UfxsdT7eqK-YpxJOSvWDQRfVWC0HqLJEIY2PbdQEXGecCm~IwFqS0eKcz~K7DpSbyvZWo7LA8QTVReW9bAJl0unsIosl2DpeQrp0Ty92WAdgi~4oafcJzRDmBzSyqH6NpABsSxUtpIdpDXWXk1SP3C8nflYjdU0UNXzflXLqbLKJ~MO241~gdqORehH4DJV3r7YbxJgGLNg__"
-                    alt="User Avatar">
-                <strong>John Doe</strong>
-            </div>
-            <h2>A Productive Day at Work</h2>
-            <p>Today was a really productive day at work. I managed to finish a report ahead of schedule and received
-                positive feedback from my manager.
-                After work, I went for a walk in the park, enjoying the fresh air. Looking forward to another great day
-                tomorrow!</p>
-            <div class="actions">
-                <span>15 Like</span> • <span>6 Replies</span>
-            </div>
+        <div class="detail">
+            <p id="date"></p>
+            <h2 id="title"></h2>
+            <img id="image" src="" alt=""><br><br>
+            <div id="content"></div>
+        </div>
+        <div class="actions">
+            <span>15 Like</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>12 Replies</span>
         </div>
 
         <div class="comments">
@@ -42,6 +36,7 @@
         </div>
     </div>
 
+    <script src="../js/details.js"></script>
 </body>
 
 </html>

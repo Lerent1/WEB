@@ -39,12 +39,13 @@ function add() {
             let article = JSON.parse(localStorage.getItem("article")) || [];
 
             let newArticle = {
-                tittle: title,
+                title: title,
                 entries: category,
                 mood: mood,
                 content: content,
                 status: status,
                 image: imglink,
+                date: new Date().toISOString().split("T")[0]
             };
 
             article.push(newArticle);
@@ -58,12 +59,13 @@ function add() {
         let article = JSON.parse(localStorage.getItem("article")) || [];
 
         let newArticle = {
-            tittle: title,
+            title: title,
             entries: category,
             mood: mood,
             content: content,
             status: status,
             image: "",
+            date: new Date().toISOString().split("T")[0]
         };
 
         article.push(newArticle);

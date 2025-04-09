@@ -9,7 +9,7 @@ function register() {
     if (!firstName || !lastName || !email || !password || !confirmPassword) {
         alert("Vui lòng điền đủ thông tin");
         return;
-    } else if (password < 6) {
+    } else if (password.length < 6) {
         alert("Mật khẩu không hợp lệ");
         return;
     } else if (password !== confirmPassword) {

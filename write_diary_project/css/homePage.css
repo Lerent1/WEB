@@ -78,6 +78,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .recent h2 {
@@ -107,7 +108,7 @@ span {
 .space .daily {
     color: #6941C6;
     border-radius: 16px;
-    width: 105px;
+    width: 150px;
     border: none;
     background-color: #F9F5FF;
 }
@@ -169,10 +170,12 @@ span {
     margin: 0 15px;
 }
 
-.posts ul li a {
+.posts ul li button {
     color: #101828;
-    text-decoration: none;
+    border: none;
     font-size: 24px;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .space td {
@@ -231,10 +234,6 @@ span {
     font-size: 14px;
 }
 
-.footer ul li a:hover {
-    text-decoration: underline;
-}
-
 .icon {
     text-align: center;
     margin-top: 30px;
@@ -249,4 +248,16 @@ span {
 
 .about {
     margin-right: 150px;
+}
+
+.list {
+    margin: 20px;
+    position: relative;
+}
+
+.list .image {
+    position: absolute;
+    left: 340px;
+    top: 280px;
+    cursor: pointer;
 }
