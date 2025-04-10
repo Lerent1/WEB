@@ -87,6 +87,65 @@ function search(category) {
     }
 }
 
+function saveAdd() {
+    let newArticle = {
+        title: document.getElementById("editTitle").value,
+        entries: document.getElementById("editEntries").value,
+        content: document.getElementById("editContent").value,
+        mood: document.getElementById("editMood").value,
+        status: document.getElementById("editStatus").value,
+        image: document.getElementById("editImage").value,
+        date: new Date().toISOString().split("T")[0]
+    };
+
+    if (
+        newArticle.title && newArticle.entries && newArticle.content &&
+        newArticle.mood && (newArticle.status.toLowerCase() === "public" || newArticle.status.toLowerCase() === "private")
+    ) {
+        let article = JSON.parse(localStorage.getItem("article")) || [];
+        article.push(newArticle);
+        localStorage.setItem("article", JSON.stringify(article));
+
+        alert("Add article successfully");
+        openAdd();
+    } else {
+        alert("Invalid information");
+    }
+}
+
+function closeAdd() {
+    document.getElementById("editModal").style.display = "none";
+    window.location.reload();
+}
+
+function loadCategories() {
+    let select = document.getElementById("editEntries");
+    if (!select) return;
+
+    select.innerHTML = '<option disabled selected> Chọn danh mục </option>';
+    let entries = JSON.parse(localStorage.getItem("entries")) || [];
+
+    for (let i = 0; i < entries.length; i++) {
+        let option = document.createElement("option");
+        option.value = entries[i].name;
+        option.text = entries[i].name;
+        select.appendChild(option);
+    }
+}
+
+function openAdd() {
+    document.getElementById("editTitle").value = "";
+    document.getElementById("editEntries").value = "";
+    document.getElementById("editContent").value = "";
+    document.getElementById("editMood").value = "";
+    document.getElementById("editStatus").value = "Public";
+    document.getElementById("editImage").value = "";
+
+    document.getElementById("editModal").style.display = "block";
+}
+
+window.onload = loadCategories;
+
 show();
 
 function signUp() {

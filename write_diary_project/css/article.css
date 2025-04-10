@@ -91,7 +91,7 @@
     top: 25px;
 }
 
-input {
+.searchUser {
     width: 600px;
     height: 66.21px;
     border: none;
@@ -109,7 +109,7 @@ a {
     margin-top: 50px;
 }
 
-.background h3 {
+.background h2 {
     text-align: center;
 }
 
@@ -181,4 +181,104 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.nextPage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.editAll {
+    width: 650px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.iconX {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.editContent {
+    width: 500px;
+    margin-left: 20px;
+}
+
+input {
+    width: 90%;
+    margin-left: 20px;
+    background-color: #CCCCCC;
+    height: 30px;
+    border: none;
+}
+
+label {
+    margin-left: 20px;
+}
+
+.editAll h2 {
+    text-align: center;
+}
+
+.shadow {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.editAll .save {
+    background-color: #065F46;
+    color: #D0D5DD;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    cursor: pointer;
+}
+
+select {
+    width: 90%;
+    margin-left: 20px;
+    background-color: #CCCCCC;
+    height: 30px;
+    border: none;
+}
+
+textarea {
+    width: 90%;
+    margin-left: 20px;
+    background-color: #CCCCCC;
+    height: 60px;
+}
+
+.add {
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #65558F;
+    border-radius: 100px;
+    cursor: pointer;
 }

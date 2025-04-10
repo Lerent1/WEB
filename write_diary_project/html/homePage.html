@@ -70,7 +70,10 @@
         </div>
     </div>
     <div class="head">
-        <h1><a href="../html/addArticle.html">ADD NEW ARTICLE <img src="../assets/images/plus-circle.png" alt=""></a>
+        <!-- <h1><a href="../html/addArticle.html">ADD NEW ARTICLE <img src="../assets/images/plus-circle.png" alt=""></a> -->
+        <!-- <button class="add" onclick="openAdd()">Add article</button> -->
+        <h1><a class="addnew" onclick="openAdd()">ADD NEW ARTICLE <img src="../assets/images/plus-circle.png"
+                    alt=""></a>
         </h1>
         <div class="posts">
             <ul>
@@ -129,6 +132,34 @@
         <a href=""><i class="fab fa-facebook"></i></a>
         <a href=""><i class="fab fa-instagram"></i></a>
         <a href=""><i class="fab fa-github"></i></a>
+    </div>
+
+    <div class="shadow" id="editModal">
+        <div class="editAll">
+            <div class="right">
+                <button class="iconX" onclick="closeAdd()"><img src="../assets/images/x-circle.png" alt=""></button>
+            </div>
+            <h2>
+                <span>&#128221;</span> Add New Article
+            </h2>
+            <label>Title:</label><br>
+            <input class="update" type="text" id="editTitle"><br><br>
+            <label>Category:</label><br>
+            <select id="editEntries"></select><br><br>
+            <label>Content:</label><br>
+            <textarea class="editContent" id="editContent"></textarea><br><br>
+            <label>Mood:</label><br>
+            <input class="update" type="text" id="editMood" placeholder="😃 Happy"><br><br>
+            <label>Status:
+                <select id="editStatus">
+                    <option>Public</option>
+                    <option>Private</option>
+                </select>
+            </label><br><br>
+            <label>Image: </label><br>
+            <input class="update" type="text" id="editImage"><br><br><br>
+            <button class="save" onclick="saveAdd()">Save</button>
+        </div>
     </div>
 
     <script src="../js/homePage.js"></script>

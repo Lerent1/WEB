@@ -59,7 +59,6 @@ function show(num = 1) {
             </td>
         </tr>`;
     }
-
     document.getElementById("pageNumber").innerText = page;
 }
 
@@ -89,33 +88,95 @@ function deletee(button) {
     }
 }
 
-function edit(button) {
-    let entry = article[button];
+let currentEditIndex = null;
+function edit(index) {
+    loadCategories();
+    let entry = article[index];
+    currentEditIndex = index;
 
-    let newTitle = prompt("Sửa tiêu đề:", entry.title);
-    let newEntry = prompt("Sửa danh mục:", entry.entries);
-    let newContent = prompt("Sửa nội dung:", entry.content);
-    let newMood = prompt("Sửa tâm trạng:", entry.mood);
-    let newStatus = prompt("Sửa trạng thái (Công khai/Riêng tư):", entry.status);
-    let newImage = prompt("Sửa ảnh:", entry.image);
+    let update = true;
+    document.getElementById("nameArticle").innerText = update ? "Edit Article" : "Add New Article";
+
+    document.getElementById("editTitle").value = entry.title;
+    document.getElementById("editEntries").value = entry.entries;
+    document.getElementById("editContent").value = entry.content;
+    document.getElementById("editMood").value = entry.mood;
+    document.getElementById("editStatus").value = entry.status;
+    document.getElementById("editImage").value = entry.image;
+
+    document.getElementById("editModal").style.display = "block";
+}
+
+function saveEdit() {
+    let updated = {
+        title: document.getElementById("editTitle").value,
+        entries: document.getElementById("editEntries").value,
+        content: document.getElementById("editContent").value,
+        mood: document.getElementById("editMood").value,
+        status: document.getElementById("editStatus").value,
+        image: document.getElementById("editImage").value,
+        date: new Date().toISOString().split("T")[0]
+    };
 
     if (
-        newTitle && newEntry && newContent && newMood &&
-        (newStatus.toLowerCase() === "public" || newStatus.toLowerCase() === "private")
+        updated.title && updated.entries && updated.content &&
+        updated.mood && (updated.status.toLowerCase() === "public" || updated.status.toLowerCase() === "private")
     ) {
-        article[button] = {
-            title: newTitle,
-            entries: newEntry,
-            content: newContent,
-            mood: newMood,
-            status: newStatus,
-            image: newImage
-        };
+        if (currentEditIndex === null) {
+            article.push(updated);
+        } else {
+            article[currentEditIndex] = updated;
+        }
+
         localStorage.setItem("article", JSON.stringify(article));
+        closeEdit();
         show(page);
     } else {
-        alert("Sửa không hợp lệ");
+        alert("Invalid information");
     }
 }
+
+function closeEdit() {
+    document.getElementById("editModal").style.display = "none";
+}
+
+function loadCategories() {
+    let entries = JSON.parse(localStorage.getItem("entries")) || [];
+
+    let selects = [document.getElementById("category"), document.getElementById("editEntries")];
+    for (let i = 0; i < selects.length; i++) {
+        let select = selects[i];
+        if (!select) {
+            continue;
+        }
+
+        select.innerHTML = '<option disabled selected> Chọn danh mục </option>';
+
+        for (let j = 0; j < entries.length; j++) {
+            let option = document.createElement("option");
+            option.value = entries[j].name;
+            option.text = entries[j].name;
+            select.appendChild(option);
+        }
+    }
+}
+
+function openAdd() {
+    currentEditIndex = null;
+
+    let update = false;
+    document.getElementById("nameArticle").innerText = update ? "Edit Article" : "Add New Article";
+
+    document.getElementById("editTitle").value = "";
+    document.getElementById("editEntries").value = "";
+    document.getElementById("editContent").value = "";
+    document.getElementById("editMood").value = "";
+    document.getElementById("editStatus").value = "Public";
+    document.getElementById("editImage").value = "";
+
+    document.getElementById("editModal").style.display = "block";
+}
+
+window.onload = loadCategories;
 
 show(page);

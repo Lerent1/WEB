@@ -34,12 +34,13 @@
         <div class="container">
             <div class="team">
                 <div class="user">
-                    <h2><a href="../html/addManege.html">Add article</a></h2>
+                    <button class="add" onclick="openAdd()">Add article</button>
                 </div>
-                <input type="text" placeholder="&nbsp; Search user"><i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchUser" type="text" placeholder="&nbsp; Search article"><i
+                    class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="background">
-                <h3>Manage Article</h3>
+                <h2>Manage Article</h2>
                 <table border="1" cellpadding="5" cellspacing="0">
                     <thead>
                         <tr>
@@ -59,6 +60,33 @@
                 <button onclick="previous()">&larr; &nbsp; Previous</button>
                 <span id="pageNumber">1</span>
                 <button onclick="next()">Next &nbsp; &rarr;</button>
+            </div>
+        </div>
+
+        <div class="shadow" id="editModal">
+            <div class="editAll">
+                <div class="right">
+                    <button class="iconX" onclick="closeEdit()"><img src="../assets/images/x-circle.png"
+                            alt=""></button>
+                </div>
+                <h2 id="nameArticle">Edit Article</h2>
+                <label>Title:</label><br>
+                <input type="text" id="editTitle"><br><br>
+                <label>Category:</label><br>
+                <select id="editEntries"></select><br><br>
+                <label>Content:</label><br>
+                <textarea class="editContent" id="editContent"></textarea><br><br>
+                <label>Mood:</label><br>
+                <input type="text" id="editMood"><br><br>
+                <label>Status:
+                    <select id="editStatus">
+                        <option>Public</option>
+                        <option>Private</option>
+                    </select>
+                </label><br><br>
+                <label>Image: </label><br>
+                <input type="text" id="editImage"><br><br><br>
+                <button class="save" onclick="saveEdit()">Save</button>
             </div>
         </div>
 
