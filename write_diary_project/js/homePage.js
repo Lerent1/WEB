@@ -78,11 +78,11 @@ function openDetail(index) {
     window.location.href = "../html/details.html";
 }
 
-function search(category) {
-    if (category === "all") {
+function search(items) {
+    if (items === "all") {
         show(article);
     } else {
-        let results = article.filter(item => item.entries === category);
+        let results = article.filter(item => item.entries === items);
         show(results);
     }
 }

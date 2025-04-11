@@ -14,11 +14,21 @@
 <body>
     <div class="header">
         <div class="logo">
+            <img src="../assets/images/Vector.png" alt="">
+            <h2>RIKKEI_EDU_BLOG</h2>
         </div>
-        <i class="fa-regular fa-envelope"></i>
-        <i class="fa-regular fa-bell"></i>
-        <div class="profile">
-            <img src="https://i.pinimg.com/736x/8f/1c/a2/8f1ca2029e2efceebd22fa05cca423d7.jpg" alt="">
+        <div class="file">
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-regular fa-bell"></i>
+            <div class="profile" onclick="profile()">
+                <img src="https://i.pinimg.com/736x/8f/1c/a2/8f1ca2029e2efceebd22fa05cca423d7.jpg" alt="">
+                <div class="menu" id="menu">
+                    <a href="">View profile</a>
+                    <a href="">Update profile picture</a>
+                    <a href="">Change password</a>
+                    <a href="../html/login.html">Log out</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="than">
@@ -33,7 +43,8 @@
         </div>
         <div class="container">
             <div class="team">
-                <input type="text" placeholder="&nbsp; Search user"><i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchUser" type="text" placeholder="&nbsp; Search user"><i
+                    class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="background">
                 <h3>📂 Manage Categories</h3>
@@ -52,13 +63,6 @@
                     <tbody id="list" class="list"></tbody>
                 </table>
             </div>
-            <table>
-                <tr class="poiter">
-                    <td><img src="../assets/images/arrow-left.png" alt=""><button>Previous</button></td>
-                    <td></td>
-                    <td class="right"><button>Next</button><img src="../assets/images/arrow-right.png" alt=""></td>
-                </tr>
-            </table>
         </div>
     </div>
 

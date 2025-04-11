@@ -25,9 +25,9 @@ function show() {
         let card = `<tr>
                         <td>${entries[i].id}</td>
                         <td><p>${entries[i].name}</p></td>
-                        <td>
-                            <button onclick="edit(this)"> Sửa</button>
-                            <button onclick="deletee(this)"> Xóa </button> <br>
+                        <td class="edit">
+                            <button onclick="edit(this)"> Edit</button>
+                            <button onclick="deletee(this)"> Delete </button> <br>
                         </td>
                     </tr>`;
         list.innerHTML += card;
@@ -79,6 +79,15 @@ function edit(button) {
             entry.name = newText.trim();
             localStorage.setItem("entries", JSON.stringify(entries));
         }
+    }
+}
+
+function profile() {
+    document.getElementById("menu").classList.toggle("active");
+}
+window.onclick = function (event) {
+    if (!event.target.closest(".profile")) {
+        document.getElementById("menu").classList.remove("active");
     }
 }
 

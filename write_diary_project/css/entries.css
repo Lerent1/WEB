@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     background: #fff;
     padding: 10px 20px;
@@ -14,8 +14,8 @@
 }
 
 .profile img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -83,18 +83,21 @@
     position: relative;
     display: flex;
     justify-content: right;
+    margin-bottom: 100px;
 }
 
 .team i {
     position: absolute;
-    right: 20px;
+    right: 170px;
     top: 25px;
 }
 
-input {
-    width: 600px;
+.searchUser {
+    width: 400px;
     height: 66.21px;
     border: none;
+    position: absolute;
+    right: 150px;
     background-color: #FFFFFF;
 }
 
@@ -104,8 +107,8 @@ a {
 }
 
 .background {
-    width: 900px;
-    height: 600px;
+    width: 1000px;
+    height: 90%;
 }
 
 .background h3 {
@@ -136,31 +139,34 @@ a {
     border: none;
 }
 
-.poiter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.poiter img {
-    cursor: pointer;
-}
-
-.poiter button {
-    border: none;
-    color: #667085;
-    background-color: white;
-    position: relative;
-    bottom: 5px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.poiter td {
-    border: none;
-}
-
 .list button {
     width: 100px;
     height: 30px;
+    margin-left: 10px;
+}
+
+.edit {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+.file i {
+    margin-right: 20px;
+    cursor: pointer;
 }
