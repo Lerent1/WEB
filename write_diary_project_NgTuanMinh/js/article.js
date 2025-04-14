@@ -88,11 +88,11 @@ function deletee(button) {
     }
 }
 
-let currentEditIndex = null;
+let editIndex = null;
 function edit(index) {
     loadCategories();
     let entry = article[index];
-    currentEditIndex = index;
+    editIndex = index;
 
     let update = true;
     document.getElementById("nameArticle").innerText = update ? "Edit Article" : "Add New Article";
@@ -122,10 +122,10 @@ function saveEdit() {
         updated.title && updated.entries && updated.content &&
         updated.mood && (updated.status.toLowerCase() === "public" || updated.status.toLowerCase() === "private")
     ) {
-        if (currentEditIndex === null) {
+        if (editIndex === null) {
             article.push(updated);
         } else {
-            article[currentEditIndex] = updated;
+            article[editIndex] = updated;
         }
 
         localStorage.setItem("article", JSON.stringify(article));
@@ -162,7 +162,7 @@ function loadCategories() {
 }
 
 function openAdd() {
-    currentEditIndex = null;
+    editIndex = null;
 
     let update = false;
     document.getElementById("nameArticle").innerText = update ? "Edit Article" : "Add New Article";
